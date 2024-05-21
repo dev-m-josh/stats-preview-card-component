@@ -14,8 +14,11 @@ input{
     border-radius: 10px;
 }
 button{
-    padding: 5px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 13px;
 }
 
 
@@ -27,21 +30,36 @@ button{
     width: 40%;
     padding: 20px;
     border-radius: 15px;
+    border: 0;
 }
 .name{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 }
 .john{
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-.query{
     width: 100%;
+
+}
+
+
+.query{
     display: flex;
     gap: 10px;
  
+}
+.gen{
+    width: 100%;
+    display: flex;
+}
+.gen>button{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
 }
 .check{
     display: flex;
